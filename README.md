@@ -29,10 +29,10 @@ Easy Configuration: Simple parameter setup for model paths, layers, and confiden
 
 Batch Processing: Supports processing of both single images and directories of images
 
-Usage
-`
+# Usage
 python
 Simply run the script to process all images in your test directory
+`
 python yolov9_heatmap.py
 `
 The script will automatically:
