@@ -1,8 +1,8 @@
-# YOLOv9 Grad-CAM Heatmap Generator
-This project is built upon the work of Jiacheng Ji and their YOLOv9-GradCAM implementation. 
+# YOLOv11 Grad-CAM Heatmap Generator
+This project is built upon the work of Jiacheng Ji and their YOLOv11-GradCAM implementation. 
 
 # Enhanced Functionality
-While the original implementation focused on generating Grad-CAM heatmaps for YOLOv9 models, this enhanced version adds the capability to automatically run all major Grad-CAM variants on your images:
+While the original implementation focused on generating Grad-CAM heatmaps for YOLOv11 models, this enhanced version adds the capability to automatically run all major Grad-CAM variants on your images:
 
 GradCAMPlusPlus
 
@@ -33,11 +33,11 @@ Batch Processing: Supports processing of both single images and directories of i
 python
 Simply run the script to process all images in your test directory
 `
-python yolov9_heatmap.py
+python yolov11_heatmap.py
 `
 The script will automatically:
 
-Load your YOLOv9 model
+Load your YOLOv11 model
 
 Process all images in the specified directory
 
